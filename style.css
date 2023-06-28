@@ -38,11 +38,17 @@
   body {
     font-family: 'Poppins', sans-serif;
   }
-
-  .estudante-imagem{
+.estudante-imagem {
     width: 120px;
   }
-
-  .estudante-icone{
-    width: 24px;
+  .estudante {
+    text-align: center;
+    background-color: #D9D9D9;
+  }
+  .estudante-div {
+    padding: 50px 0;
+  }
+  .estudante-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
   }
